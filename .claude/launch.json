@@ -1,0 +1,27 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "city-nails-dev",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
+      "runtimeArgs": ["run", "dev", "--prefix", "city-nails"],
+      "port": 3000
+    },
+    {
+      "name": "ellis-web2",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\Jason\\Downloads\\Claude Skills\\Claude Skills\\ellis-web2\\serve.ps1",
+        "-Root",
+        "C:\\Users\\Jason\\Downloads\\Claude Skills\\Claude Skills\\ellis-web2",
+        "-Port",
+        "8099"
+      ],
+      "port": 8099
+    }
+  ]
+}

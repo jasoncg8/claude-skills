@@ -1,0 +1,11 @@
+# Standalone project folders — each has (or should have) its own git repo, not part of the skills archive
+/city-nails/
+/civicdesigns/
+/ellis-web2/
+/alessandro-magherini/
+/marzio group website/
+/osteria-dell-ok/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
